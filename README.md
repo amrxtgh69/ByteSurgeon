@@ -77,7 +77,7 @@ build: `mvn clean install`.
 ##  Contribute
 see [contributing.md](contributing.md). prs welcome!
 
-##  license
+##  License
 mit. see [license](license).
 
 [https://x.com/amrxtgh] | [blog post coming soon]
