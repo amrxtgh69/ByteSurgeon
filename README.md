@@ -15,7 +15,7 @@ tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents
 
 demo app included—see [demos/simple-app](demos/simple-app).
 
-##  Architecture (first principles)
+##  Architecture (
 
 ### 1️ Core idea
 observe & intervene in running java without source code:
@@ -57,11 +57,11 @@ observability = data + lens.
 - metrics: microservices → architecture view.
 - opt: inject fast code → instant gains.
 
-### 7️ Why it shocks (recruiter bait)
+### 7️ Why it shocks 
 - beyond source: binary + live jvm mastery.
 - full cycle: observe → diagnose → optimize → viz.
 
-##  How to think (pre-code)
+##  How to think 
 1. jvm stack: methods → ops.
 2. .class: pool + code.
 3. hooks: entry/exits.
