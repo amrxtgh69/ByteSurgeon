@@ -13,7 +13,7 @@ tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents
 2. **attach agent**: `java -javaagent:agent/target/bytesurgeon-agent.jar -jar patched.jar`
 3. **visualize**: metrics → prometheus → grafana (flamegraphs auto-gen).
 
-demo app included—see [demos/simple-app](demos/simple-app).
+
 
 ##  Architecture (
 
