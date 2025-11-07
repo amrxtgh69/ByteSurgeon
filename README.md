@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-APACHE-green)](LICENSE) 
 [![Stars](https://img.shields.io/github/stars/amrxtgh69/ByteSurgeon?style=social)](https://github.com/amrxtgh69/ByteSurgeon)
 
-**surgical jvm performance: observe, intervene, visualize—zero source code touched.**
+**Surgical jvm performance: observe, intervene, visualize—zero source code touched.**
 
 tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents for live metrics, and flames out hotspots in grafana. from micro-tweaks to full-system observability.
 
