@@ -20,12 +20,12 @@ tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents
 ### 1️ Core idea
 observe & intervene in running java without source code:
 
-- **observation**: time methods (perf monitoring).
-- **intervention**: patch slow bits to accelerate.
+- **Observation**: time methods (perf monitoring).
+- **Intervention**: patch slow bits to accelerate.
 
 jvm magic: code (methods) ≠ execution (stack). manipulate via:
-- **patcher**: bytecode edits pre-run.
-- **agent**: runtime hooks, no file changes.
+- **Patcher**: bytecode edits pre-run.
+- **Agent**: runtime hooks, no file changes.
 
 ### 2️ Patcher – how it works
 goal: inject timers into .class files.
@@ -80,4 +80,4 @@ see [contributing.md](contributing.md). prs welcome!
 ##  License
 mit. see [license](license).
 
-[https://x.com/amrxtgh] | [blog post coming soon]
+[X](https://x.com/amrxtgh)| [blog post coming soon]
