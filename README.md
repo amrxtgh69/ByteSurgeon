@@ -35,13 +35,13 @@ Goal: inject timers into .class files.
 - scalable: auto-patch 1000s of methods.
 
 ### 3️ Agent – runtime hooks
-- load via `-javaagent` or hot-attach.
-- transform classes on-the-fly: wrap methods w/ pre/post timers.
-- data: timestamp deltas → metrics sink (prometheus/micrometer).
+- Load via `-javaagent` or hot-attach.
+- Transform classes on-the-fly: wrap methods w/ pre/post timers.
+- Data: timestamp deltas → metrics sink (prometheus/micrometer).
 
 ### 4️ Metrics collection
-- aggregate: times, counts, p95s.
-- visualize: flamegraphs in grafana—spot time sinks.
+- Aggregate: times, counts, p95s.
+- Visualize: flamegraphs in grafana—spot time sinks.
 
 observability = data + lens.
 
