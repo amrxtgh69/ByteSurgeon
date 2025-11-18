@@ -6,7 +6,7 @@
 
 **Surgical jvm performance: observe, intervene, visualize—zero source code touched.**
 
-tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents for live metrics, and flames out hotspots in grafana. from micro-tweaks to full-system observability.
+Tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents for live metrics, and flames out hotspots in grafana. from micro-tweaks to full-system observability.
 
 ## Quickstart
 1. **patch a jar**: `java -jar patcher/target/bytesurgeon-patcher.jar -input myapp.jar -output patched.jar`
@@ -28,7 +28,7 @@ jvm magic: code (methods) ≠ execution (stack). manipulate via:
 - **Agent**: runtime hooks, no file changes.
 
 ### 2️ Patcher – how it works
-goal: inject timers into .class files.
+Goal: inject timers into .class files.
 
 - .class = binary: header + pool + methods (code attrs w/ jvm ops).
 - stack-based: insert `starttimer()` at entry, `stoptimer()` at exits (returns).
