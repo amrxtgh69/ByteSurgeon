@@ -31,7 +31,7 @@ jvm magic: code (methods) ≠ execution (stack). manipulate via:
 Goal: inject timers into .class files.
 
 - .class = binary: header + pool + methods (code attrs w/ jvm ops).
-- stack-based: insert `starttimer()` at entry, `stoptimer()` at exits (returns).
+- Stack-based: insert `starttimer()` at entry, `stoptimer()` at exits (returns).
 - scalable: auto-patch 1000s of methods.
 
 ### 3️ Agent – runtime hooks
