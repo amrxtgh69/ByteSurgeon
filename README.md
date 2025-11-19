@@ -72,12 +72,12 @@ observability = data + lens.
 - asm 9.5 for bytecode.
 - prometheus + grafana for metrics.
 
-build: `mvn clean install`.
+Build: `mvn clean install`.
 
 ##  Contribute
-see [contributing.md](contributing.md). prs welcome!
+see [contributing.md](contributing.md). PR welcome!
 
 ##  License
 mit. see [license](license).
 
-[X](https://x.com/amrxtgh)| [blog post coming soon]
+[X](https://x.com/amrxtgh)| [Blog post coming soon]
