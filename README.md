@@ -52,7 +52,7 @@ observability = data + lens.
 4. flamegraph → victory lap.
 
 ### 6️ Scaling up
-- patcher: all classes auto.
+- Patcher: all classes auto.
 - agent: any jvm.
 - metrics: microservices → architecture view.
 - opt: inject fast code → instant gains.
