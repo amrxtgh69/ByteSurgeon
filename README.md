@@ -11,7 +11,7 @@ Tired of blind perf hunts? bytesurgeon patches bytecode for timers, hooks agents
 ## Quickstart
 1. **Patch a jar**: `java -jar patcher/target/bytesurgeon-patcher.jar -input myapp.jar -output patched.jar`
 2. **Attach agent**: `java -javaagent:agent/target/bytesurgeon-agent.jar -jar patched.jar`
-3. **Visualize**: metrics → prometheus → grafana (flamegraphs auto-gen).
+3. **Visualize**: metrics → prometheus → Grafana (flamegraphs auto-gen).
 
 
 
