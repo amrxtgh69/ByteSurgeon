@@ -1,10 +1,31 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-// no dependencies yet
-
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
+application {
+    mainClass = 'org.bytesurgeon.Main'
 }
 
+dependencies {
+    implementation project(':common')
+    
+    implementation 'org.ow2.asm:asm:9.5'
+    implementation 'org.ow2.asm:asm-commons:9.5'
+    // CLI argument parsing
+    implementation 'info.picocli:picocli:4.7.5'
+    annotationProcessor 'info.picocli:picocli-codegen:4.7.5'
+}
+
+jar {
+    archiveBaseName = 'bytesurgeon-patcher'
+    manifest {
+        attributes 'Main-Class': 'org.bytesurgeon.Main' // Update with your actual main class
+    }
+    
+    // Create fat JAR with dependencies
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

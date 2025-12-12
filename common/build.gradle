@@ -2,9 +2,9 @@ plugins {
     id 'java'
 }
 
-// no dependencies yet
-
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
+dependencies {
+    // ASM for bytecode manipulation
+    implementation 'org.ow2.asm:asm:9.5'
+    implementation 'org.ow2.asm:asm-commons:9.5'
+    implementation 'org.ow2.asm:asm-tree:9.5'
 }
-

@@ -1,10 +1,14 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-// no dependencies yet
-
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
+dependencies {
+    // Can depend on patcher/agent for testing
+    // implementation project(':patcher')
+    // implementation project(':agent')
 }
 
+application {
+    mainClass = 'org.example.App'
+}
