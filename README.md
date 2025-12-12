@@ -74,10 +74,17 @@ observability = data + lens.
 
 Build: `mvn clean install`.
 
+<<<<<<< HEAD
 ##  Contribute
 see [contributing.md](contributing.md). PR welcome!
 
 ##  License
+=======
+##  contribute
+see [contributing.md](contributing.md). prs welcome!
+
+## license
+>>>>>>> 134709e (update)
 mit. see [license](license).
 
 [X](https://x.com/amrxtgh)| [Blog post coming soon]
