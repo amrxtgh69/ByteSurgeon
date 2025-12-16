@@ -7,7 +7,6 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.jar.JarOutputStream;
 
-import javax.management.RuntimeErrorException;
 
 final class JarPatcher {
     static void patch(Path input, Path output) throws Exception {
