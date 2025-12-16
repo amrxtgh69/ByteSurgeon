@@ -34,6 +34,6 @@ public class Main {
             Files.createFile(output);
             System.out.println("Output file created: " + output);
         }
-        JarPatcher.patch(input, output); //TODO create the patch function that iterate JAR entries, rewrite .class files only
+        JarPatcher.patch(input, output); 
     }
 }
