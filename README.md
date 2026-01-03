@@ -80,4 +80,4 @@ see [contributing.md](contributing.md). PR welcome!
 
 ##  License
 
-[X](https://x.com/amrxtgh)| [Blog post coming soon]
+[X](https://x.com/amrxtgh) [Blog post coming soon]
