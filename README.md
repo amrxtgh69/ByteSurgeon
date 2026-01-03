@@ -68,12 +68,12 @@ observability = data + lens.
 4. separate: patcher (files), agent (live), metrics (viz).
 
 ##  Setup
-- java 17+, maven 3.9+.
+- java 17+, gradle
 - asm 9.5 for bytecode.
 - prometheus + grafana for metrics.
 
 I am using gradle 
-Build: `......`.
+Build: `./gradlew clean run`.
 
 ##  Contribute
 see [contributing.md](contributing.md). PR welcome!
